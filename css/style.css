@@ -1,0 +1,101 @@
+body{
+  margin: 0;
+
+  font-style: 'Playfair Display', serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #626262;
+}
+
+/*header start*/
+header{
+  padding: 40px 0;
+
+}
+.container{
+  margin: 0 auto;
+  width: 90%;
+/*  border: 1px solid red;*/
+  overflow: hidden;
+
+}
+.img{
+  width: 10%;
+/*  border: 1px solid red;*/
+  float: left;
+  margin-top: 13px;
+}
+.img a{
+  display: block;
+}
+.img a img{
+  width: 100%;
+}
+
+.menu{
+  width: 60%;
+/*  border: 1px solid red;*/
+  float: right;
+}
+.menu ul{
+  float: right;
+}
+.menu ul li{
+  list-style: none;
+  float: left;
+}
+.menu ul li a{
+  margin: 0 49px;
+  display: inline-block;
+  color: #626262;
+/*  border-bottom: 1px solid transparent;*/
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: .33s;
+
+}
+.menu ul li a:hover{
+  border-bottom: 1px solid #000000;
+}
+.menu ul li:last-child a{
+  margin-right: 0;
+}
+.banner{}
+.b_img{}
+.b_img img{
+  width: 100%;
+}
+/*header end*/
+/*message start*/
+.message{
+  padding: 80px 0;
+}
+.container2{
+  margin: 0 auto;
+  width: 80%;
+/*  border: 1px solid red;*/
+}
+.m_light{
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #b4ad9e;
+  text-transform: uppercase;
+
+}
+.m_tittle{
+  margin: 20px 0 30px;
+  font-size: 30px;
+  font-weight: 400;
+}
+.m_regular{
+  margin: 0;
+  line-height: 24px;
+
+
+}
+.m-40{
+  margin-top: 40px;
+}
+/*message end*/
